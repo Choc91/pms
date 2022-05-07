@@ -1,34 +1,27 @@
-# pms
-Project Management System using .NET/Angular to plan, organize, and manage resource tools and develop resource estimates.
-Mandatory Modules:
- USERS:
- There are 2 types of users in the system:
- • Manager/Hr (Admin)
- • Employee (He can only view his profile)
+# PMS
 
-Module 1: (Admin)
-As a Manager/Hr I can login to my application and If I don’t have credentials then I can sign up and create an account to login.
-Once Login is done,As a manager I should see dashboard page which should display the team summary , project briefing , team members detail 
-As a Manager , I should be able to add new project details
-As a Manager, I should be add to add new employees to the project
-As a Manager, I should be add to removes employees from the project
-As a Manager , I should be add clients ,update project costs
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
 
-Module 2: (User)
-As a Employee I can login to my application and If I don’t have credentials then I can sign up and create an account to login.
-Once Login is done, I should see all the list of mapped projects to the employee
-As a employee I can see my project details and will not have any role to edit it
+## Development server
 
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
+## Code scaffolding
 
-Front-End : (Need to consume all the above API’s)
-As a F.E I will be creating the login page, signup page UI and will consume the above created API in .NET
-I can also reset my password if I forget.
-I should have all the necessary buttons for add update and delete API in front end.
-Add the authorization in the UI as well. The buttons should not be visible for the users.
-The page should be responsive. (Use bootstrap)
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-The data model consists of three main subject areas:
-•	Users and roles
-•	Projects
-•	Tasks 
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
